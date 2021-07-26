@@ -1,0 +1,284 @@
+/*------------------- BASIC SETUP --------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(255, 255, 255);
+  color: #555;
+  font-family: "Lato", "Arial", "same-serif";
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+/*------------------- HEADER --------------------*/
+header {
+  background: linear-gradient(rgba(184, 198, 128, 0), rgba(0, 0, 0, 0)),
+    url(front.jpg) no-repeat fixed top center / cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 15%;
+  left: 49%;
+  transform: translate(-50%, 130%);
+  color: aliceblue;
+}
+.col-xs-6 {
+  position: absolute;
+  width: 1140px;
+  top: 5%;
+  left: 25%;
+  transform: translate(-50%, 430%);
+  color: aliceblue;
+  margin-left: 45px;
+  margin-right: -100px;
+}
+
+.logo,
+.logo-white {
+  height: 70px;
+  width: auto;
+  float: left;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.logo-white {
+  display: none;
+}
+
+p {
+  font-size: 18px;
+  padding-left: 50px;
+}
+/*----------------- NEVIGATION BUTTON ----------------------*/
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+  font-weight: 900;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #0cadf5;
+}
+/*----------------- sticky navi ----------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #cc0000 0%, #ff9933 100%);
+
+  z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 8px 0;
+}
+.sticky .logo {
+  display: none;
+}
+.sticky .logo-white {
+  display: block;
+}
+
+/*----------------- HEADLINE ----------------------*/
+h {
+  font-weight: bold;
+  font-size: 30px;
+  float: left;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 50px;
+  display: inline-block;
+  color: #fff;
+}
+h1,
+h2,
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+}
+h2 {
+  color: #86c440;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 65px;
+}
+
+h2:after {
+  display: block;
+  height: 4px;
+  background-color: #0cadf5;
+  content: " ";
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+h4,
+h6 {
+  color: #0cadf5;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+h7 {
+  color: #0cadf5;
+  font-size: 30px;
+  margin-left: 430px;
+}
+
+h4:after,
+h6:after {
+  display: block;
+  height: 4px;
+  background-color: #0cadf5;
+  content: " ";
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/*----------------- PARAGRAPH ----------------------*/
+.long-copy {
+  line-height: 145%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*----------------- BOTTOM ----------------------*/
+
+.bottom {
+  background: linear-gradient(rgba(225, 225, 225, 0.5), rgba(0, 0, 0, 0)),
+    url(bottom.jpg) no-repeat fixed bottom center / cover;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+
+.fa-2x {
+  margin-right: 20px;
+}
+
+.centerdivi {
+  padding-top: 20px;
+}
+
+/*----------------- ALL INDIA UPDATE Section ----------------------*/
+
+.Top_Table {
+  display: table;
+  border-spacing: 20px;
+}
+.Top_Row {
+  display: table-row;
+}
+.Top_Cell {
+  display: table-cell;
+  border: solid;
+  border-width: 3px;
+
+  border-radius: 5px;
+  padding: 1.25rem 0.5rem 0.75rem;
+  margin-left: 30px;
+  cursor: pointer;
+  width: 300px;
+  text-align: center;
+}
+
+[id$="meta_data"] {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/*----------------- STATE UPDATE Section ----------------------*/
+.Heading {
+  display: table-row;
+  font-weight: bold;
+  text-align: center;
+  background: #92c6fa;
+}
+.Table {
+  display: table;
+  border-spacing: 10px;
+  margin-top: 20px;
+}
+.Title {
+  display: table-caption;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+.Row {
+  display: table-row;
+}
+.Cell {
+  display: table-cell;
+  border: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 2.5rem 3rem 0.8rem;
+}
+.hide_border {
+  border-width: 0px;
+  padding: 1px;
+}
+.my_container {
+  display: block;
+  padding-left: 30px;
+  font-size: 20px;
+  margin-left: 120px;
+  text-align: center;
+}
+.counter_odd {
+  background: rgba(221, 221, 221, 0.25);
+}
+.counter_even {
+  background: rgba(221, 221, 221, 0.6);
+}
+.district_css:nth-child(odd) {
+  background: rgba(211, 211, 211, 0.25);
+}
+
+.district_css:nth-child(even) {
+  background: rgba(221, 221, 221, 0.6);
+}

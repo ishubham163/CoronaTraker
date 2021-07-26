@@ -1,0 +1,236 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+    .footer_class i{
+      font-size: 30px;
+      transition: all 0.3s linear;
+
+    }
+    .footer_class:hover i{
+      transform: scale(1.4);
+    }
+.Table
+    {
+        display: table;
+         border-spacing: 2px;
+        margin-top: 20px;
+        margin-left: -100px
+         
+    }
+.Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: 0px;
+        border-radius: 5px;
+        padding: 1rem 5rem 0.2rem   
+    }
+    }
+.my_container{
+    font-size: 15px;
+}
+
+        .col-xs-6{
+
+    transform: translate(-50%, 350%);
+
+    
+}
+    
+            .bottom{
+            background-image: linear-gradient(rgba(225, 225, 225, 0.5),rgba(0, 0, 0, 0
+        )), url(bottom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+    h7{
+    color: #0cadf5;  
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+            
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+  
+    .footer_class i{
+      font-size: 30px;
+      transition: all 0.3s linear;
+
+    }
+    .footer_class:hover i{
+      transform: scale(1.4);
+    }
+        .col-xs-6{
+
+    transform: translate(-50%, 320%);
+
+    
+}
+    
+            .bottom{
+            background-image: linear-gradient(rgba(225, 225, 225, 0.5),rgba(0, 0, 0, 0
+        )), url(bottom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+    h7{
+    color: #0cadf5;  
+    font-size: 30px;
+    margin-left: 180px;
+}
+    .Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: 0px;
+        border-radius: 5px;
+        padding: 1rem 0.5rem 0.2rem   
+    }
+    }
+.main-nav
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    
+    .col-xs-6{
+
+    transform: translate(-50%, 320%);
+
+    
+}
+    
+    
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+     
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    h7{font-size: 20px;
+    margin-left: 70px;
+}
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+        .bottom{
+            background-image: linear-gradient(rgba(225, 225, 225, 0.5),rgba(0, 0, 0, 0
+        )), url(bottom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+    .footer_class i{
+      font-size: 30px;
+      transition: all 0.3s linear;
+
+    }
+    .footer_class:hover i{
+      transform: scale(1.4);
+    }
+    
+   .Top_Table
+    {
+        display: table;
+         border-spacing: 0px;
+         
+    }
+
+
+[id$="meta_data"]{
+font-size: 20px;
+padding-top:2px;
+padding-bottom:1px;
+font-weight: bold;
+}
+    
+    
+    
+    
+.Table
+    {
+        display: table;
+         border-spacing: 2px;
+        margin-top: 20px;
+        margin-left: -10px
+         
+    }
+.Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: 0px;
+        border-radius: 5px;
+        padding: 1rem 0.1rem 0.2rem   
+    }
+    }
+.my_container{
+    font-size: 15px;
+}
+
+    
+h4:after,
+h6:after{
+
+    width: 450px;
+   
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+
+    .footer_class i{
+      font-size: 30px;
+      transition: all 0.3s linear;
+
+    }
+    .footer_class:hover i{
+      transform: scale(1.4);
+    }
